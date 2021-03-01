@@ -1,0 +1,33 @@
+{
+  "name": "assignment1_fs",
+  "version": "1.0.0",
+  "description": "CS648-02 Assignment3",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server -e js,graphql server/server.js",
+    "watch": "babel src --presets @babel/react --out-dir public --watch --verbose",
+    "compile": "babel src --presets @babel/react --out-dir public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonakBipinThakkar/Assignment3_FS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonakBipinThakkar/Assignment3_FS/issues"
+  },
+  "homepage": "https://github.com/RonakBipinThakkar/Assignment3_FS#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.21.0",
+    "express": "^4.17.1",
+    "graphql": "^0.13.2",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-react": "^7.12.10"
+  }
+}
